@@ -6,7 +6,7 @@ const fs = require('fs');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '-';
+const prefix = 'a';
 client.login(process.env.BOT_TOKEN); 
 client.on('ready', () => {
     console.log('I am ready!');
